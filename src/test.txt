@@ -1,9 +1,7 @@
-INPUT 5 a b c d e
-OUTPUT 2 y z
- AND a b f
- AND c d g
-  OR f g h
- XOR h e y
-  OR a c i
-  OR b d j
-NAND i j z
+INPUT 4   w x y z
+OUTPUT 4  a b c d
+
+OR   w 0  a
+AND  x 1  b
+NAND y 1  c
+NOR  z 0  d
